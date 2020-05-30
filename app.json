@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "TriunfoApp",
+    "slug": "TriunfoApp",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EF2C2c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.triunfoimoveis.triunfoapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#F31616"
+      },
+      "package": "com.triunfoimoveis.triunfoapp",
+      "versionCode": 1
+    }
+  }
+}
