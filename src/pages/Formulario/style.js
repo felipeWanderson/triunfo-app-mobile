@@ -6,9 +6,10 @@ export default StyleSheet.create({
   },
   
   textContainer: {
+    width: '100%',
     marginTop: 15,
     marginBottom: 10,
-    alignItems: 'center',
+    alignItems: 'flex-end',
   },
 
   text: {
@@ -17,5 +18,13 @@ export default StyleSheet.create({
     textAlign: 'center',
     color: '#FFF',
     fontWeight: 'bold',
+    marginEnd: 4,
   },
+
+  share: {
+    marginTop: 10,
+    marginEnd: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  }
 });
